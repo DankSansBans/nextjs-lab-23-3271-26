@@ -1,5 +1,5 @@
 
- Middleware does not work and kept deprecating, and I had to switch to Proxy.ts for the last part, it kept telling me to use 'Use Client', and when I did, it worked  and took hours to finish and most of my problems was self 
+ Middleware does not work and kept deprecating, and I had to switch to Proxy.ts for the last part. The auth tokens were annoying to fix it kept making me go in a loop, looked up multiple sites on how to fix  it first was deleting the cookies and opened the inspect went through cookies and deleted it and still did not work and restarting the local host via command prompt by typing"nexjs-lab" in my files then npm run dev still did not work so had to start over from scratch then IT FINALLY WORKED. At the last part kept telling me to use 'Use Client' , and when I did, it worked  and took hours to finish and most of my problems was self 
  inflicted like i kept trying to find the reason why it doesnt show any thing in the browser only to find out i had two copies and so i deleted one and it finally worked.
  
  01 — Hello.tsx A simple, reusable static functional component that displays a welcoming message using JSX and Tailwind CSS styling. It shows the basic structure of a Next.js component.
