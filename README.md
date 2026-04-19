@@ -1,3 +1,7 @@
+
+ Middleware does not work and kept deprecating, and I had to switch to Proxy.ts for the last part, it kept telling me to use 'Use Client', and when I did, it worked  and took hours to finish and most of my problems was self 
+ inflicted like i kept trying to find the reason why it doesnt show any thing in the browser only to find out i had two copies and so i deleted one and it finally worked.
+ 
  01 — Hello.tsx A simple, reusable static functional component that displays a welcoming message using JSX and Tailwind CSS styling. It shows the basic structure of a Next.js component.
 
 02 — UserCard.tsx A  presentational component that accepts name, role, and an optional avatar prop. It creteers a user profile card and gracefully handles the case when no avatar is provided.
@@ -23,6 +27,5 @@ Login Page (/login/page.tsx): A simple demo page explaining how to test the rout
 
 CartSummary.tsx: A small client component that shows the current cart count and total price in the navigation bar.
 
-Shop Page (/shop/page.tsx): A client component displaying products with "Add to Cart" buttons that interact with the shared cart context.
 
 
